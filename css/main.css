@@ -5,6 +5,9 @@
 .w-100 {
   width: 100%; }
 
+.w-70 {
+  width: 70%; }
+
 .text-orange {
   color: #E8603C; }
 
@@ -13,6 +16,11 @@
   font-family: "Helvetica";
   font-weight: normal !important; }
 
+.fs-3 {
+  font-size: 3em !important;
+  padding-right: 2% !important;
+  padding-top: 2% !important; }
+
 /*Margenes y paddings */
 .mt_3 {
   margin-top: -4em; }
@@ -20,11 +28,32 @@
 .mt-5 {
   margin-top: 5%; }
 
+.mt-3 {
+  margin-top: 3%; }
+
+.mr-3 {
+  margin-right: 3%; }
+
 .mb-5 {
   margin-bottom: 5%; }
 
+.ml-2 {
+  margin-left: 1em; }
+
+.ml-3 {
+  margin-left: -3em; }
+
+.mt-12 {
+  margin-top: 12em !important; }
+
+.mt-13 {
+  margin-top: 13.5em !important; }
+
 blockquote {
   border-left: 1em solid #E8603C !important; }
+
+.uppercase {
+  text-transform: uppercase; }
 
 /*Menu */
 .navbar-default {
@@ -60,19 +89,19 @@ blockquote {
 .service_area {
   margin-top: 3em; }
 
-.portfolio {
+.portfolio h2 {
   background-image: url("../images/portfolio.png");
   background-repeat: no-repeat;
   background-position: scroll left;
   padding-left: 4em; }
 
-.offer {
+.offer h2 {
   background-image: url("../images/offer.png");
   background-repeat: no-repeat;
   background-position: scroll left;
   padding-left: 4em; }
 
-.follow {
+.follow h2 {
   background-image: url("../images/follow.png");
   background-repeat: no-repeat;
   background-position: scroll left;
@@ -88,12 +117,11 @@ blockquote {
   background: url("../images/heading-bg.png") !important;
   background-repeat: repeat-x !important;
   font-size: 2em !important;
-  margin-left: 5.5em !important;
-  line-height: 1.25em !important;
+  margin-left: 6em !important;
   margin-bottom: 1em !important;
   margin-top: 1em !important; }
 .from_blog span, .from_works span, .barra_background_common span {
-  margin-left: -6em !important; }
+  margin-left: -5em !important; }
 
 .single_blog_post h3, .single_work h3 {
   color: #999999;
@@ -111,6 +139,10 @@ blockquote {
   border-right: 1px solid #999999;
   padding-left: 2.1em;
   padding-top: 1.1em; }
+
+.blog_post_meta_portafolio {
+  border: 1px solid #999999;
+  padding: 0 0.5em 0.5em 0; }
 
 /*footer */
 .footer_area {
@@ -191,5 +223,53 @@ blockquote {
 .gallery {
   height: 3em;
   width: 100%; }
+
+/*blog */
+.absolute {
+  position: absolute;
+  top: 8em;
+  right: 5em; }
+
+.separador {
+  background: url("../images/post_border_bg.png");
+  height: 0.9em;
+  margin-top: 25em;
+  width: 70%; }
+
+.fondo_p {
+  background-color: #ECE8E8;
+  padding: 1% 3% 3% 3%; }
+
+.paginas ul {
+  list-style: none;
+  margin-left: -3em; }
+  .paginas ul li {
+    float: left; }
+    .paginas ul li a {
+      display: block;
+      margin-left: 2em;
+      padding: 1em 1.5em !important; }
+
+.btn_categories ul {
+  list-style: none;
+  margin-left: 8em;
+  margin-top: -3em; }
+  .btn_categories ul li {
+    float: left;
+    margin-left: 2em; }
+    .btn_categories ul li span {
+      font-size: 1.5em;
+      color: #999999; }
+      .btn_categories ul li span a {
+        display: block;
+        margin-left: -1em;
+        font-size: 1em;
+        padding: 1% 15% !important; }
+
+.form-control {
+  border: 1px solid #E8603C; }
+
+input::-webkit-input-placeholder {
+  color: #E8603C !important; }
 
 /*# sourceMappingURL=main.css.map */
